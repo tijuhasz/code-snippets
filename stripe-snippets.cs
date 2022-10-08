@@ -14,7 +14,7 @@ namespace notary.assistant.lora.Licensing
 {
     public class StripePaymentsGateway
     {
-		public async Task<Customer> CreateCustomerAsync(string email, Customer customer, string password_hash)
+        public async Task<Customer> CreateCustomerAsync(string email, Customer customer, string password_hash)
         {
             var options = new CustomerCreateOptions
             {
